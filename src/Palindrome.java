@@ -67,4 +67,9 @@ public void setPalindromeString(String palindromestring) {
 		this.palindromestack.push(this.palindromestring.charAt(i));
 	}
 }//end setPalindromeString
+	
+@Override
+public String toString() {
+	return "Palindrome [palindromestring=" + palindromestring + ", palindromeCheck=" + palindromeCheck + "]";
+}//end toString
 }//end Palindrome
