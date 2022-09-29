@@ -13,6 +13,3 @@ s1.setPalindromeString("brad");// setting the string to a word that isn't a pali
 System.out.println("Test 2 | String = "+ s1.getPalindromeString() +". isPalindrome = "+ s1.isPalindrome()); //checking to make sure that it returns false since it isn't a palindrome
 }
 }
-
-
-
